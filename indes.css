@@ -12,9 +12,17 @@
 }
 
 .box{
-
-
     border: 1px solid black;
     width: 200px;
     height: 200px;
+}
+
+
+.flexing{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.flexing div:hover{
+    background-color: aqua;
 }
